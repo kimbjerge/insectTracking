@@ -63,7 +63,7 @@ List of species that the YOLOv3 model is able to predict.
 |  8	  | Other arthropods                |
 
 
-## Software remote to process the detections by YOLOv3
+## Remote software to process the detections by YOLOv3
 
 The Python code performs filtering and tracing of YOLOv3 detections as predicted in real-time on the camera system.
 
