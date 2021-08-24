@@ -1,7 +1,6 @@
-# README #
+# Insect tracking and monitoring with a portable computer vision system #
 
 ## What is this repository for? ##
-
 
 This repository contains all the necessary code and documentation for the insect tracking and monitoring camera system as described in paper.
 "Real-time insect tracking and monitoring with computer vision and deep learning".
@@ -22,6 +21,15 @@ List of hardware to build the portable computer vision system as described in th
 ## Software on site to be installed on Jetson Nano
 
 A Linux image with preinstalled motion and YOLOv3 software will be send by filetransfer on request to author.
+This image must be written to a minimimun 64GB SD Card and inserted to the Jetson Nano. 
+
+Read more about the Jetson Nano here:
+https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+
+Read more about the preinstalled motion software here:
+
+Read more about the preinstalled YOLOv3 software here:
+
 
 ## Software remote to process the detections by YOLOv3
 
