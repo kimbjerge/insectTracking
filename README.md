@@ -69,10 +69,9 @@ The Python code performs filtering and tracing of YOLOv3 detections as predicted
 
 ## How do I get set up for tracking with Python? ##
 
-#### Using Anaconda on Windows: ####
-1. Install the dependencies and create the enviorement using the provided "ICT_env.txt" with the command "conda create --name myEnv --file ICT_env.txt"
-2. Activate the enviorement using the command "activate myEnv"
-3. Install opencv with the command "pip install opencv-contrib-python"
+#### Using Anaconda on Windows or Linux: ####
+1. Install the dependencies and create the environment using the provided OS specific environment file with the command "conda create --name myEnv --file ENV_FILE.txt" (See env file for Linux and Windows)
+2. Activate the environment using the command "activate myEnv"
 
 #### Start the program ####
 Start the program by running the file insect_tracking.py with the command "python insect_tracking.py"
