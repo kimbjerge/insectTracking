@@ -21,7 +21,7 @@ List of hardware to build the portable computer vision system as described in th
 ## Software to be installed on Jetson Nano (On site)
 
 A Linux image with preinstalled motion and YOLOv3 software will be send by filetransfer on request to author.
-This image must be written to a minimimun 64GB SD Card and inserted to the Jetson Nano. 
+This image must be written to the microSD Card and inserted to the Jetson Nano. 
 
 Read more about the Jetson Nano here:
 https://developer.nvidia.com/embedded/jetson-nano-developer-kit
@@ -34,7 +34,9 @@ https://github.com/AlexeyAB/darknet
 
 Just connect the USB Web-camera and USB WiFi dongle to the Jetson Nano with the Linux image installed on the microSD card.
 
-First time it is also recommended to connect a screen (HDMI), keyboard (USB) and mouse (USB) to the Jetson Nano to see the system starts the Linux enviroment.
+First time it is recommended to connect a screen (HDMI), keyboard (USB) and mouse (USB) to the Jetson Nano beeing able 
+to see the system starts the Linux enviroment correctly.
+
 Login name and password will be provided on request for the Linux image.
 
 ## Running software installed on Jetson Nano (On site)
@@ -50,7 +52,7 @@ x1, y1 specifies the upper left corner and x2, y2 the lower right corner of the 
 List of species that the YOLOv3 model is able to predict. 
 
 | class | species                         |
-|-----------------------------------------|
+|-------|---------------------------------|
 |  1	  | Coccinellidae septempunctata    |
 |  2	  | Apis mellifera                  |   
 |  3	  | Bombus lapidarius               |
