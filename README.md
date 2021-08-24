@@ -66,8 +66,7 @@ List of species that the YOLOv3 model is able to predict.
 ## Remote software to process the detections by YOLOv3
 
 The Python code performs filtering and tracing of YOLOv3 detections as predicted in real-time on the camera system.
-
-## How do I get set up for tracking with Python? ##
+The input is the CSV files in this case for a hole season given by example files in the CSV folder. 
 
 #### Using Anaconda on Windows or Linux: ####
 1. Install the dependencies and create the environment using the provided OS specific environment file with the command "conda create --name myEnv --file ENV_FILE.txt" (See env file for Linux and Windows)
