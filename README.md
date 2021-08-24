@@ -67,20 +67,7 @@ List of species that the YOLOv3 model is able to predict.
 
 The Python code performs filtering and tracing of YOLOv3 detections as predicted in real-time on the camera system.
 
-## How do I get set up? ##
-#### Dependencies####
-The following dependencies must be installed.
-
-| Dependency   | Version  |
-|--------------|----------|
-| scikit_image | tbd	  |
-| numpy        | tbd      |
-| scipy        | tbd      |
-| Pympler      | tbd      |
-| tensorflow   | tbd      |
-| Pillow       | tbd      |
-| PyQt5        | tbd      |
-| OpenCV       | tbd      |
+## How do I get set up for tracking with Python? ##
 
 #### Using Anaconda on Windows: ####
 1. Install the dependencies and create the enviorement using the provided "env.txt" with the command "conda create --name myEnv --file env.txt"
@@ -88,12 +75,12 @@ The following dependencies must be installed.
 3. Install opencv with the command "pip install opencv-contrib-python"
 
 #### Start the program ####
-Start the program by running the file ict_main.py with the command "python ict_main.py"
+Start the program by running the file insect_tracking.py with the command "python insect_tracking.py"
 
 #### Results & output ####
 The algorithm outputs the results in JSON and CSV files with date and counts for each species (class).
 These statistic files are by default named statistics.json and statistics.csv. The track files are by default named <DirectoryName>.json and <DirectoryName>.csv
-The track files contain the following information:
+The track files YYYYMMDD.csv contain the following information:
 
 | Property | Description | Example |
 |--------------|----------|----------|
@@ -108,6 +95,9 @@ The track files contain the following information:
 | size | The average number of blob pixels in one track. | 73563.79 |
 | distance | The euclidean distance in pixels the centerpoint of the blobs have moved throughout a track. | 65 | 
 
+#### Print statistics ####
+Run the Python script "python print_statistics.py" to plot figures on the seasonal dynamics of insects to be used for inspiration.
+  
 ## Who do I talk to? ##
 Kim Bjerge
 
