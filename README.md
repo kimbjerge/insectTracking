@@ -7,15 +7,15 @@ This repository contains all the necessary code and documentation for the insect
 
 List of hardware to build the portable computer vision system as described in the paper.
 
-| Hardware                                |
-|-----------------------------------------|
-| Jetson Nano Developer Kit (NVIDIA)      |
-| 64GB or 128GB microSD Card              |
-| Logitech Brio Ultra HD Pro Web-camera   |
-| SSD Samsung 500 GB harddisk             |
-| USB WiFi dongle                         |
-| Jetson Colling Fan (Optional)           |
-| Power supply 5V/2.5A                    |
+| Hardware                                | Links                                                           |
+|-----------------------------------------|------------------------------------------------------------------  |
+| Jetson Nano Developer Kit (NVIDIA)      | https://developer.nvidia.com/embedded/jetson-nano-developer-kit |
+| 64GB or 128GB microSD Card              | |
+| Logitech Brio Ultra HD Pro Web-camera   | https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.960-001105.html |
+| SSD Samsung 500 GB harddisk             | |
+| USB WiFi dongle                         | |
+| Jetson Colling Fan (Optional)           | |
+| Power supply 5V/2.5A                    | |
 
 
 ## Software to be installed on Jetson Nano (On site)
