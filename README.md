@@ -5,6 +5,8 @@
 This repository contains all the necessary code and documentation for the insect tracking and monitoring camera system as described in paper.
 "Real-time insect tracking and monitoring with computer vision and deep learning".
 
+Video of real-time insect tracking: https://www.youtube.com/watch?v=tW-eEh0ASA4&t=157s
+
 List of hardware to build the portable computer vision system as described in the paper.
 
 | Hardware                                | Links                                                           |
