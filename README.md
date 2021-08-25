@@ -36,8 +36,8 @@ https://github.com/AlexeyAB/darknet
 
 Just connect the USB Web-camera and USB WiFi dongle to the Jetson Nano with the Linux image installed on the microSD card.
 
-First time it is recommended to connect a screen (HDMI), keyboard (USB) and mouse (USB) to the Jetson Nano beeing able 
-to see the system starts the Linux enviroment correctly.
+It is recommended to connect a screen (HDMI), keyboard (USB) and mouse (USB) to the Jetson Nano beeing able 
+to see the system starts the Linux enviroment correctly the first time.
 
 Login name and password will be provided on request for the Linux image.
 
