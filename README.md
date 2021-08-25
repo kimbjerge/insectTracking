@@ -45,7 +45,7 @@ Login name and password will be provided on request for the Linux image.
 
 When the power is turned on the motion program will be started every morning at 6:00 to record images each 3 seconds.
 Every hour, YOLOv3 starts to process images recorded within the last hours and images without insect detections will be deleted.
-In the afternoon after 22:00 the recording of images is stopped and detections (CSV files) are transmitted to a github server.
+In the afternoon after 22:00 the recording of images are stopped and detections (CSV files) are transmitted to a github server.
 All recorded images with detections are stored on the SSD harddisk in directory named with current date (YYYYMMDD).
 The information about detections are stored in a directory CSV and the CSV files are named YYYYMMDD.csv.
 
