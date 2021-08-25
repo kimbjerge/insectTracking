@@ -14,7 +14,7 @@ List of hardware to build the portable computer vision system as described in th
 | Logitech Brio Ultra HD Pro Web-camera   | https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.960-001105.html |
 | SSD Samsung 500 GB harddisk             | https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t5-500gb-mu-pa500b-am/ |
 | USB WiFi dongle                         | |
-| Jetson Colling Fan (Optional)           | |
+| ICE Tower Colling Fan (Optional)        | https://www.seeedstudio.com/ICE-Tower-CPU-Cooling-Fan-for-Nvidia-Jetson-Nano-p-4214.html |
 | Power supply 5V/2.5A                    | |
 
 
